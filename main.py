@@ -17,7 +17,7 @@ def ler_numero(mensagem, padrao):
 
 
 def mostrar_consumo():
-    print("\n--- Consumo da casa exemplo (valores ESTIMADOS) ---")
+    print("\n--- Consumo da casa exemplo (valores ESTIMADOS, não muda com a opção 2) ---")
     for aparelho in APARELHOS:
         kwh = kwh_por_mes(aparelho["potencia_w"], aparelho["horas_dia"], aparelho["quantidade"])
         print(f"{aparelho['nome']}: {aparelho['quantidade']} x {aparelho['potencia_w']} W, "
@@ -59,7 +59,7 @@ def mostrar_limitacoes():
     print("- A tarifa foi considerada constante; na prática ela muda todo ano.")
     print("- Custos de instalação variam: peça orçamentos de empresas.")
     print("- Solar exige telhado adequado, sem sombra, e depende do clima.")
-    print("- Regras de compensação da energia solar (Lei 14.300/2022) podem reduzir a economia.")
+    print("- O cálculo usa a tarifa cheia sobre a energia compensada. Pela Lei 14.300/2022, parte da tarifa continua sendo cobrada, então a economia real tende a ser MENOR.")
     print("- Não foram considerados manutenção, troca de inversor e perda de eficiência dos painéis.")
     print("- A redução de CO2 é pequena porque a rede elétrica brasileira já é majoritariamente renovável.")
     print("- Fontes: veja docs/referencias.md")
