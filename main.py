@@ -49,6 +49,13 @@ def mostrar_comparacao(consumo, tarifa, qtd_lampadas):
     if solar["retorno_meses"] is not None:
         print(f"  Retorno do investimento: {solar['retorno_meses'] / 12:.1f} anos")
     print(f"  CO2 evitado: {solar['co2_evitado']:.1f} kg")
+    print("\nResumindo:")
+    print(f"- Trocar as lâmpadas custa pouco (R$ {led['investimento']:.2f}) e economiza pouco por mês.")
+    if solar["retorno_meses"] is None:
+        print("- Com esse consumo, a energia solar não traz economia.")
+    else:
+        print(f"- A energia solar custa bem mais (R$ {solar['investimento']:.2f}), mas economiza mais por mês.")
+    print("- Os valores são estimativas e podem mudar.")
 
     return led, solar
 
@@ -104,6 +111,9 @@ def main():
             break
         else:
             print("Opção inválida. Tente novamente.")
+        input("\nPressione Enter para voltar ao menu...")
+        print("\n" * 30)
+
 
 
 main()
