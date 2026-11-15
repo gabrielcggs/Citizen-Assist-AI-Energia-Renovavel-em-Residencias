@@ -7,7 +7,7 @@
 4. INPE — Atlas Brasileiro de Energia Solar. https://labren.ccst.inpe.br/atlas_2017.html
 5. MCTI — Fatores de emissão de CO2 do Sistema Interligado Nacional. https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao
 6. Procel / Inmetro — Consumo e eficiência de equipamentos e lâmpadas. https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica
-7. Conta de luz da própria família (tarifa e consumo reais).
+7. Conta de luz da própria família de 1 integrante(tarifa e consumo reais).
 8. Orçamentos de empresas de energia solar (custo por kWp).
 
 Data da consulta: 12/11/2026

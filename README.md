@@ -32,7 +32,7 @@ período (10 anos) e explica custos, viabilidade, impacto ambiental e limitaçõ
 - `calculos.py`: fórmulas e comparação.
 - `docs/justificativas.md`: justificativas das recomendações.
 - `docs/referencias.md`: referências.
-- `docs/testes_usuarios.md`: testes com usuários e ajustes.
+- `docs/teste_usuarios.md`: testes com usuários e ajustes.
 
 ## Dados e premissas (todos ESTIMADOS)
 | Dado | Valor | Unidade | Origem / observação |
@@ -40,14 +40,14 @@ período (10 anos) e explica custos, viabilidade, impacto ambiental e limitaçõ
 | Tarifa | 0,78 | R$/kWh | Conta de luz de um integrante do grupo (com impostos) |
 | Período de análise | 10 | anos | Definido pelo grupo (igual para A e B) |
 | Dias no mês | 30 | dias | Simplificação |
-| Potência e horas dos aparelhos | ver `dados.py` | W e h/dia | Valores típicos estimados (conferir Procel/Inmetro) |
+| Potência e horas dos aparelhos | ver `dados.py` | W e h/dia | Valores típicos estimados |
 | Lâmpada fluorescente / LED | 23 / 10 | W | Estimativa |
 | Preço da lâmpada LED | 12,00 | R$ | Estimativa de mercado |
-| Horas de sol pleno (HSP) | 4,5 | h/dia | Estimativa; conferir CRESESB |
+| Horas de sol pleno (HSP) | 4,5 | h/dia | CRESESB/Sundata, São Paulo (consulta em 12/11/2026) |
 | Eficiência do sistema solar | 0,80 | — | Premissa comum de perdas |
-| Custo do sistema solar | 4.500 | R$/kWp | Estimativa; pedir orçamentos |
+| Custo do sistema solar | 4.500 | R$/kWp | Estimativa |
 | Custo de disponibilidade | 50 | kWh/mês | Valor para ligação bifásica (ANEEL) |
-| Fator de emissão | 0,0385 | kg CO2/kWh | Média da rede (MCTI); conferir o ano |
+| Fator de emissão | 0,0385 | kg CO2/kWh | Média da rede (MCTI) |
 
 ## Fórmulas
 - Energia (kWh/mês) = potência (W) × horas/dia × quantidade × 30 ÷ 1000
